@@ -27,10 +27,10 @@
   <body>
     <header class="header">
       <h1 class="header-title">0xRiley</h1>
-      <nav class="header-nav">
+      <!-- <nav class="header-nav">
         <a href="#" class="nav-btn">/home</a>
         <a href="#" class="nav-btn">/about</a>
-      </nav>
+      </nav> -->
     </header>
     <main class="main-container">
       <section class="section">
@@ -76,7 +76,7 @@
         </p>
       </section>
       <hr />
-      <section class="section">
+      <section id="about" class="section">
         <h2 class="section-title">~$whoami</h2>
         <p>
           Bonjour, je m'appelle Riley. Développeur autodidacte et technicien
@@ -107,21 +107,51 @@
       <hr />
       <section class="section">
         <h2 class="section-title">~$./Spécialités.txt</h2>
-        <div class="card-container">
-          <h3 class="card-title">HTML CSS JS</h3>
-          <img alt="SVG" class="card-img" src="./assets/svg/html5.svg" />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui unde
-            excepturi iste molestias voluptate maiores odit laborum veniam?
-            Obcaecati, voluptatum! Mollitia ut hic praesentium voluptatem
-            blanditiis aliquid qui recusandae ipsum.
-          </p>
+        <div class="flex-col">
+          <div class="card-container phone-flex">
+            <h3 class="card-title">HTML CSS JS</h3>
+            <img alt="SVG" class="card-img" src="./assets/svg/html5.svg" />
+            <p>
+              J'ai commencé par la programmation web par le plus élémentaire,
+              c’est-à-dire le HTML, CSS et JavaScript, je suis capable de créer
+              des interfaces utilisant diverses méthodes de layout avec Grid ou
+              Flexbox, et comme dit, le JavaScript vient en complément pour
+              créer Des interactions.
+            </p>
+          </div>
+          <div class="card-container phone-flex">
+            <h3 class="card-title">Node JS</h3>
+            <img alt="SVG" class="card-img" src="./assets/svg/nodejs.svg" />
+            <p>
+              Je connais Node.js notamment pour la création d'API web ou juste
+              un Simple serveur pour servir un frontend.
+            </p>
+          </div>
+          <div class="card-container phone-flex">
+            <h3 class="card-title">Distribution Debian</h3>
+            <img alt="SVG" class="card-img" src="./assets/svg/debian.svg" />
+            <p>
+              Pendant mes études, j'ai pris l'habitude d'utiliser Debian pour
+              tout type de cas de figure, que ce soit pour la gestion de
+              Fichiers (NFS/Samba), serveur web (Apache/NGINX), DNS (Bind9).
+            </p>
+          </div>
         </div>
       </section>
       <hr />
+      <section class="section">
+        <h2>/contact me$</h2>
+        <p>Interessé ?</p>
+        <p>Contactez moi &#128521;</p>
+        <address>
+          <a class="contact-mail" href="#" rel="noopener noreferrer">À venir !</a>
+        </address>
+      </secion>
     </main>
     <footer class="footer">
-      <p>&copy; Riley 2025, All Right Reserved &lt;3</p>
+      <p>&copy; Riley <span id="year"></span>, All Right Reserved &lt;3</p>
     </footer>
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets//js/main.js"></script>
   </body>
 </html>

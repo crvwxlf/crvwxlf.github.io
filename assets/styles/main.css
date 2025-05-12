@@ -106,11 +106,13 @@ hr {
   justify-content: center;
 }
 
-.card-container {
-}
 .card-img {
   height: 10em;
   float: left;
+}
+
+.card-title {
+  clear: both;
 }
 
 @media (max-width: 600px) {
@@ -120,4 +122,27 @@ hr {
   .ascii {
     overflow-x: hidden;
   }
+  .phone-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  margin: 3em 0em;
+}
+
+.contact-mail {
+  color: #fff;
+  text-decoration: none;
 }
