@@ -1,11 +1,157 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>Hello world!</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/icons/site.webmanifest" />
+    <title>0xRiley's home</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-title">0xRiley</h1>
+      <!-- <nav class="header-nav">
+        <a href="#" class="nav-btn">/home</a>
+        <a href="#" class="nav-btn">/about</a>
+      </nav> -->
+    </header>
+    <main class="main-container">
+      <section class="section">
+        <pre class="ascii">
+                ⢀⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠻⣥⠙⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡿⠀⡿⠻⣆⠙⠦⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⡄⠁⠀⠘⣆⡔⢶⣆⠉⢷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡄⠀⠀⡿⢿⡀⠉⠀⠞⠹⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡿⡄⠀⡇⠘⣧⣀⣀⣀⠀⠻⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⠃⠁⢀⣠⠞⣹⢿⠻⡟⢿⣿⣯⢳⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⠃⠶⠒⠉⠁⣴⠇⢸⡇⡟⡷⢬⡙⠎⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⠇⢀⣠⣄⡀⠚⠁⠀⠈⠀⠀⣷⠀⠉⠛⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⣽⣿⣶⠋⢉⡿⠇⠀⠀⠀⠀⠀⣰⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢱⣿⣿⠇⠀⣠⣥⣤⡀⠀⠀⠀⢀⡟⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⢿⣿⢀⣾⡟⠉⢹⡇⠀⠀⠀⢸⠁⡿⠙⣿⣷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⢸⣇⣾⡟⠀⠸⡏⣄⡀⠀⠀⢹⢀⡇⢀⢘⢿⣮⡙⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣇⠀⡀⣧⠰⣿⣶⣄⠀⠀⠀⠘⣎⠳⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡿⣿⣆⠹⣿⡐⣾⣷⣹⣆⠀⠀⠀⠘⢷⣄⣻⣿⣿⣷⡄⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⢿⣿⣦⠽⣇⣹⣟⢿⠙⠁⠀⠀⠀⣤⠉⠻⣿⣿⣿⣿⣦⡀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠙⡟⠂⣿⢹⡿⣼⠇⠀⠀⣀⠀⣷⡀⠀⠈⠻⣿⣿⣿⣷⡀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡆⢻⠀⠉⢸⡇⠈⣀⣠⣾⠇⠀⠻⣿⣦⣤⣴⣿⠿⣿⡿⣷⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡇⢸⡀⠀⢸⠁⣰⠛⣽⡧⠖⠻⢿⡆⠈⠉⠉⠀⠀⢻⣷⠹⠇
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠘⡇⠀⢸⢰⡏⢰⡟⠀⣀⣀⡼⠃⠀⢀⡆⠀⠀⠘⣿⡆⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣴⣿⣶⣷⣶⣾⣿⣧⣾⣤⣄⣀⣀⣤⣤⣶⡿⠀⠀⠀⢠⣿⡇⠀
+⠀⠀⠀⠀⠀⠀⠀⣠⣴⣾⣿⣟⡛⠛⠛⠉⠉⠉⠉⢉⣭⣽⡿⠿⠿⠿⠛⠛⠛⠓⠲⠦⠄⣼⢻⡇⠀
+⠀⠀⠀⠀⠀⠀⠘⢉⣼⣿⣿⠿⠛⠛⠁⠀⠀⣠⠖⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⣸⡇⠀
+⠀⠀⠀⠀⠀⢀⣴⠿⠛⠁⢀⣀⣀⣀⣀⣀⣄⡀⠀⠀⠀⢦⣀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠇⣰⣿⠁⠀
+⠀⠀⠀⢀⣴⣟⣥⣶⣾⣿⣿⣿⣿⣿⣿⣭⣤⣤⣤⣀⣀⡀⠈⠛⠶⢶⣶⣶⣶⣾⣿⣿⣿⠟⠁⠀⠀
+⠀⢀⣴⡿⠟⠋⡽⠟⠉⠉⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠙⠛⠛⠛⠿⠿⠿⠿⠟⠛⠉⠁⠀⠀⠀⠀
+⠐⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            </pre
+        >
+      </section>
+      <section class="section">
+        <h2 class="section-title">/preface$</h2>
+        <p class="section-text">
+          Ce site illustre certaines compétences que j'ai développées de manière
+          autodidacte, sans expérience professionnelle préalable. Bien qu'il
+          reste simple dans sa conception, il démontre ce qu'une personne
+          motivée peut accomplir avec de la détermination, du temps et de la
+          persévérance.
+        </p>
+      </section>
+      <hr />
+      <section id="about" class="section">
+        <h2 class="section-title">~$whoami</h2>
+        <p>
+          Bonjour, je m'appelle Riley. Développeur autodidacte et technicien
+          systèmes & réseaux, J’aime travailler dans l’ombre, à la lumière de
+          mon PC. J’aime écrire du code quand l’inspiration me frappe — je veux
+          concevoir des choses utiles et pratiques, je le fais par passion, ni
+          pour la gloire, ni pour l’argent, même si un jour je crée quelque
+          chose utilisé par des millions de gens...
+        </p>
+      </section>
+      <hr />
+      <section class="section">
+        <h2 class="section-title">~$./skills</h2>
+        <ul class="section-list">
+          <li>> JavaScript</li>
+          <li>> HTML + CSS</li>
+          <li>> Bash</li>
+          <li>> PowerShell</li>
+          <li>> Debian</li>
+          <li>> Serveur DNS, HTTP</li>
+          <li>> Windows Serveur (ADDS, WDS)</li>
+          <li>> CentOS</li>
+          <li>> VLAN</li>
+          <li>> git</li>
+          <li>> Centreon</li>
+        </ul>
+      </section>
+      <hr />
+      <section class="section">
+        <h2 class="section-title">~$./Spécialités.txt</h2>
+        <div class="flex-col">
+          <div class="card-container phone-flex">
+            <h3 class="card-title">HTML CSS JS</h3>
+            <img alt="SVG" class="card-img" src="./assets/svg/html5.svg" />
+            <p>
+              J'ai commencé par la programmation web par le plus élémentaire,
+              c’est-à-dire le HTML, CSS et JavaScript, je suis capable de créer
+              des interfaces utilisant diverses méthodes de layout avec Grid ou
+              Flexbox, et comme dit, le JavaScript vient en complément pour
+              créer Des interactions.
+            </p>
+          </div>
+          <div class="card-container phone-flex">
+            <h3 class="card-title">Node JS</h3>
+            <img alt="SVG" class="card-img" src="./assets/svg/nodejs.svg" />
+            <p>
+              Je connais Node.js notamment pour la création d'API web ou juste
+              un Simple serveur pour servir un frontend.
+            </p>
+          </div>
+          <div class="card-container phone-flex">
+            <h3 class="card-title">Distribution Debian</h3>
+            <img alt="SVG" class="card-img" src="./assets/svg/debian.svg" />
+            <p>
+              Pendant mes études, j'ai pris l'habitude d'utiliser Debian pour
+              tout type de cas de figure, que ce soit pour la gestion de
+              Fichiers (NFS/Samba), serveur web (Apache/NGINX), DNS (Bind9).
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="section">
+        <h2>/contact me$</h2>
+        <p>Interessé ?</p>
+        <p>Contactez moi &#128521;</p>
+        <address>
+          <a class="contact-mail" href="#" rel="noopener noreferrer">À venir !</a>
+        </address>
+      </secion>
+    </main>
+    <footer class="footer">
+      <p>&copy; Riley <span id="year"></span>, All Right Reserved &lt;3</p>
+    </footer>
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets//js/main.js"></script>
+  </body>
 </html>
