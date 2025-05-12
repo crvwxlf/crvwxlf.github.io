@@ -1,0 +1,148 @@
+/*
+    Color palette:
+    Primary: #0D1117
+    Secondary: #161B22
+    header: #79C0FF
+
+*/
+
+body {
+  margin: 0;
+  background-color: #0d1117;
+}
+
+@font-face {
+  font-family: "firacode";
+  src: url("../fonts/FiraCode-Regular.woff2");
+}
+
+* {
+  font-family: "firacode";
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #79c0ff;
+}
+
+p,
+li {
+  color: #fff;
+  line-height: 1.6;
+}
+
+hr {
+  max-width: 90%;
+  border: 2px solid #0d1117;
+  clear: both;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  top: 0;
+  padding: 0 2%;
+  background-color: #161b22;
+  width: 100%;
+  height: 80px;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.header-nav > a {
+  background-color: #0d1117;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.header-nav > a:hover {
+  text-decoration: underline;
+}
+
+.main-container {
+  background-color: #161b22;
+  margin-top: 100px;
+  padding: 1px;
+  margin: 100px 25% 50px 25%;
+}
+
+.section {
+  margin: 5rem 3% 5rem 3%;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.section-title::after {
+  content: "_";
+  animation: blink 1s step-end infinite;
+}
+
+.section-list {
+  list-style-type: none;
+}
+
+.ascii {
+  color: #fff;
+  text-align: center;
+  font-family: monospace;
+}
+
+.footer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.card-img {
+  height: 10em;
+  float: left;
+}
+
+.card-title {
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    margin: 100px 5% 50px 5%;
+  }
+  .ascii {
+    overflow-x: hidden;
+  }
+  .phone-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  margin: 3em 0em;
+}
+
+.contact-mail {
+  color: #fff;
+  text-decoration: none;
+}
